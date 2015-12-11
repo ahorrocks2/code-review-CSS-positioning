@@ -33,6 +33,9 @@ body {
   float: right;
 }
 
+/* COURSE BOX NAV
+==================== */
+
 .course-nav {
   position: absolute;
   top: 0;
@@ -77,4 +80,63 @@ body {
 
 #javaFX-nav {
   background-color: green;
+}
+
+/* COURSE BOX INFO
+======================= */
+
+.course-info {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  bottom: 90px;
+  right: 0px;
+  margin: auto;
+  padding: 20px;
+}
+
+.course-footer {
+  position: absolute;
+  top: 310px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  padding: 20px;
+}
+
+.course-footer > h2 {
+  display: inline;
+  padding: 7px 15px;
+  margin: 20px 10px;
+  border: 2px solid lightgrey;
+  border-radius: 30px;
+  color: grey;
+}
+
+#java-link > a, #javaFX-link > a {
+  text-decoration: none;
+  color: green;
+}
+
+#java-link:hover, #javaFX-link:hover {
+  border: 2px solid green;
+}
+
+#django-link > a {
+  text-decoration: none;
+  color: pink;
+}
+
+#django-link:hover {
+  border: 2px solid pink;
+}
+
+#woo-link > a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+#woo-link:hover {
+  border: 2px solid lightblue;
 }
