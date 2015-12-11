@@ -154,6 +154,7 @@ body {
 .course-actions {
   float: right;
   margin-right: 50px;
+  position: relative;
 }
 
 .course-actions > i {
@@ -183,4 +184,26 @@ body {
 #javaFX-actions > i:hover {
   color: green;
   border: 2px solid green;
+}
+
+#java-actions > img {
+  position: absolute;
+  z-index: 1;
+  top: -138px;
+  left: -83px;
+}
+
+#java-trailer {
+  position: absolute;
+  z-index: 2;
+  top: -128px;
+  left: -68px;
+  font-size: .9em;
+  padding: 10px;
+}
+
+#java-trailer > h4 {
+  margin: 5px;
+  margin-bottom: -10px;
+  margin-left: -1px;
 }
