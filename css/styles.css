@@ -39,6 +39,42 @@ body {
   bottom: 0;
   width: 100%;
   height: 100px;
-  background-color: pink;
   border-radius: 5px 5px 0px 0px;
+}
+
+.fa-map-o {
+  color: white;
+  position: absolute;
+  top: 35px;
+  left: 40px;
+}
+
+.circles {
+  color: white;
+  position: absolute;
+  opacity: .4;
+  top: 43px;
+  left: 100px;
+}
+
+.time {
+  position: absolute;
+  color: white;
+  top: 21px;
+  right: 50px;
+}
+#java-nav {
+  background-color: green;
+}
+
+#django-nav {
+  background-color: pink;
+}
+
+#woo-nav {
+  background-color: lightblue;
+}
+
+#javaFX-nav {
+  background-color: green;
 }
