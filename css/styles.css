@@ -47,25 +47,26 @@ body {
 
 .fa-map-o {
   color: white;
-  position: absolute;
-  top: 35px;
-  left: 40px;
+  float:left;
+  margin-top: 35px;
+  margin-left: 40px;
 }
 
 .circles {
   color: white;
-  position: absolute;
+  float: left;
+  margin-top: 43px;
+  margin-left: 20px;
   opacity: .4;
-  top: 43px;
-  left: 100px;
 }
 
 .time {
-  position: absolute;
+  float: right;
+  margin-right: 43px;
+  margin-top: 21px;
   color: white;
-  top: 21px;
-  right: 50px;
 }
+
 #java-nav {
   background-color: green;
 }
@@ -87,6 +88,7 @@ body {
 
 .course-info {
   position: absolute;
+  width: 100%;
   top: 100px;
   left: 0px;
   bottom: 90px;
@@ -95,8 +97,12 @@ body {
   padding: 20px;
 }
 
+/* COURSE BOX FOOTER
+===================== */
+
 .course-footer {
   position: absolute;
+  width: 100%;
   top: 310px;
   left: 0px;
   right: 0px;
@@ -105,9 +111,13 @@ body {
   padding: 20px;
 }
 
-.course-footer > h2 {
+.pills {
+  float: left;
+}
+
+.pills > h3 {
   display: inline;
-  padding: 7px 15px;
+  padding: 5px 10px;
   margin: 20px 10px;
   border: 2px solid lightgrey;
   border-radius: 30px;
@@ -139,4 +149,38 @@ body {
 
 #woo-link:hover {
   border: 2px solid lightblue;
+}
+
+.course-actions {
+  float: right;
+  margin-right: 50px;
+}
+
+.course-actions > i {
+  display: inline;
+  padding: 9px 10px;
+  margin: 8px;
+  border: 2px solid lightgrey;
+  border-radius: 30px;
+  color: lightgrey;
+}
+
+#java-actions > i:hover {
+  color: green;
+  border: 2px solid green;
+}
+
+#django-actions > i:hover {
+  color: pink;
+  border: 2px solid pink;
+}
+
+#woo-actions > i:hover {
+  color: lightblue;
+  border: 2px solid lightblue;
+}
+
+#javaFX-actions > i:hover {
+  color: green;
+  border: 2px solid green;
 }
